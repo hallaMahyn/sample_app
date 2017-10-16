@@ -43,6 +43,7 @@ group :development, :test do
   gem 'selenium-webdriver'
   gem 'rspec-rails', '3.6.0'
   gem 'childprocess'
+  gem 'factory_girl_rails', '4.2.1'
 end
 
 group :development do

@@ -1,6 +1,6 @@
 Rails.application.routes.draw do
 
-  get 'users/new'
+  resources :users
 
 root  'static_pages#home'
 
@@ -10,6 +10,6 @@ match '/about', to: 'static_pages#about', via: 'get'
 
 match '/contact', to: 'static_pages#contact', via: 'get'
 
-match '/singup', to: 'users#new', via: 'get'
+match '/signup', to: 'users#new', via: 'get'
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
 end
