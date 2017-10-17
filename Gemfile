@@ -36,6 +36,9 @@ gem 'bcrypt-ruby', '3.1.2'
 gem 'bootstrap-sass' , '3.3.7'
 gem 'jquery-rails', '4.3.1'
 gem 'cucumber', '3.0.1'
+gem 'faker', '1.8.4'
+gem 'will_paginate', '3.1.6'
+gem 'bootstrap-will_paginate', '1.0.0'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
@@ -46,6 +49,8 @@ group :development, :test do
   gem 'rspec-rails', '3.6.0'
   gem 'childprocess'
   gem 'factory_girl_rails', '4.2.1'
+  gem 'database_cleaner', '1.6.1'
+
 end
 
 group :development do
